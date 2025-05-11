@@ -1,16 +1,28 @@
-# flutter_api
 
-A new Flutter project.
+# Public API Integration Task
 
-## Getting Started
+##  Overview
 
-This project is a starting point for a Flutter application.
+This project demonstrates how to fetch and display data from a public API using a `ListView`. We use the (https://disease.sh/v3/covid-19/countries) API to retrieve and display a list of **contries**.
 
-A few resources to get you started if this is your first Flutter project:
+##  Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Integration with a public REST API
+* Asynchronous data fetching
+* Displaying data using `ListView`
+* Loading state handling
+* Error handling with user-friendly messages
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+* Basic knowledge of Flutter or your preferred development environment
+* Internet connection (for API access)
+
+
+## 📌 Learning Objectives
+
+* Understand basic HTTP requests and JSON parsing
+* Handle asynchronous programming using `Future` and `async/await`
+* Build dynamic lists using `ListView.builder`
+* Implement basic error and state management
+
